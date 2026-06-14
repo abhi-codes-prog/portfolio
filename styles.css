@@ -4,9 +4,9 @@ body {
     background-color: #07111f;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    max-width: 1000px;
-    margin: auto;
-    padding: 40px;
+    max-width: 80%;
+    margin: 30px;
+    padding: 20px;
     line-height: 1.7;
 }
 
@@ -50,7 +50,7 @@ p {
 /* ===== BUTTONS ===== */
 
 .btn {
-    display: inline-block;
+    display: inline;
     background-color: #2563eb;
     color: white;
     padding: 10px 20px;
