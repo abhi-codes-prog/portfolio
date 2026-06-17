@@ -4,7 +4,7 @@ body {
     background-color: #07111f;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     padding: 40px;
     line-height: 1.7;
@@ -39,6 +39,31 @@ h2 {
     margin-bottom: 15px;
     color: #ffffff;
     font-size: 36px;
+}
+
+/* ===== PARAGRAPHS ===== */
+
+p {
+    color: #cbd5e1;
+}
+
+/* ===== BUTTONS ===== */
+
+.btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
 }
 
 /* ===== SKILLS ===== */
@@ -82,12 +107,21 @@ h2 {
     border-radius: 12px;
     padding: 20px;
     width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     transition: 0.3s;
 }
 
 .project-card:hover {
     border-color: #3b82f6;
     transform: translateY(-3px);
+}
+
+.project-card a {
+    color: #60a5fa;
 }
 
 /* ===== EDUCATION ===== */
@@ -108,8 +142,7 @@ h2 {
     color: white;
 }
 
-.card p,
-.card li {
+.card p {
     color: #cbd5e1;
 }
 
@@ -132,14 +165,13 @@ h2 {
 }
 
 .cert-card h3 {
-    color: #ffffff;
+    color: white;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
 .cert-card p {
     color: #cbd5e1;
-    line-height: 1.8;
     margin-bottom: 20px;
 }
 
@@ -152,28 +184,8 @@ h2 {
     margin-bottom: 8px;
 }
 
-/* ===== PARAGRAPHS ===== */
-
-p {
-    color: #cbd5e1;
-}
-
-/* ===== BUTTONS ===== */
-
-.btn {
-    display: inline-block;
-    background-color: #2563eb;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    margin-top: 10px;
-    margin-right: 10px;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background-color: #1d4ed8;
+.cert-card a {
+    color: #60a5fa;
 }
 
 /* ===== LINKS ===== */
